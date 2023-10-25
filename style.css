@@ -63,7 +63,7 @@ body{
     font-weight: 10;
     font-size: 13px;
     margin: 0 20px;
-    font-family: futura;
+    font-family: 'futura';
 
 }
 
@@ -122,7 +122,7 @@ body{
     line-height: 13.5vw;
     letter-spacing: -9px;
     text-transform: uppercase;
-    font-family: futura;
+    font-family:'futura';
 }
 
 #video-container{
@@ -146,7 +146,7 @@ body{
     position: fixed;
     border-radius: 50%;
     text-transform: uppercase;
-    font-family: futura;
+    font-family: 'futura';
     scale: 0;
     opacity: 0;
 }
