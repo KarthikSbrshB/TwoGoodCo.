@@ -273,6 +273,7 @@ body{
         padding: 9.5vw 7.5vw;
         font-size: 4vw;
         position: absolute;
+        display: none;
         top: 50%;
         left: 50%;
         transform: translate(-50%,-50%);
@@ -316,6 +317,46 @@ body{
         justify-content: space-evenly;
         flex-wrap: wrap;
     
+    }
+
+    #cursor1{
+        height: 150px;
+        width: 150px;
+        background-color: blanchedalmond;
+        border-radius: 50%;
+        position: fixed;
+        display: none;
+        transform: translate(-50%,-50%) scale(0);
+    }
+    
+    #cursor2{
+        height: 150px;
+        width: 150px;
+        display: none;
+        background-color: rgb(179, 156, 222);
+        border-radius: 50%;
+        position: fixed;
+        transform: translate(-50%,-50%) scale(0);
+    }
+    
+    #cursor3{
+        height: 150px;
+        width: 150px;
+        display: none;
+        background-color: rgb(174, 156, 129);
+        border-radius: 50%;
+        position: fixed;
+        transform: translate(-50%,-50%) scale(0);
+    }
+    
+    #cursor4{
+        height: 150px;
+        width: 150px;
+        display: none;
+        background-color: rgb(189, 252, 234);
+        border-radius: 50%;
+        position: fixed;
+        transform: translate(-50%,-50%) scale(0);
     }
 
     .child{
